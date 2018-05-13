@@ -1,6 +1,25 @@
 from flask import Flask, render_template
 from flask_zurb_foundation import Foundation
-app = Flask(__name__)
-Foundation(app)
-from app import routes
+
+def create_app():
+    app = Flask(__name__)
+    
+    Foundation(app)
+    
+    @app.route('/')
+    def index():
+        return render_template('index.html')
+
+
+    @app.route('/resume/')
+    def resume():
+        return render_template('resume.html')
+    
+    return app
+
+
+
+if __name__ == '__main__':
+    create_app().run(debug=True)
+
 

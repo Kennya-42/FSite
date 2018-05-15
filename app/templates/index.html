@@ -18,10 +18,10 @@
 
 <body>
     <div class="slideUp"></div>
-    <nav class="top-bar" data-topbar role="navigation" data-options="is_hover: false">
+    <nav class="top-bar" data-topbar role="navigation">
         <ul class="title-area">
             <li class="item">
-                <i class="fi-home style1"></i>
+                <a class="link-item-home" href="#"><span class="fi-home menu-item"></span>&nbsp; </a>
             </li>
             <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
             <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
@@ -30,17 +30,31 @@
         <section class="top-bar-section">
             <!-- Left Nav Section -->
             <ul class="left">
-                <li><a href="#">Resume</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Blog</a></li>
+                <li class="">
+                    <a class="link-item-about" href="/about/"><span class="lnr fi-torso menu-item"></span>&nbsp; About</a>
+                </li>
+                <li class="">
+                    <a class="link-item-resume" href="/resume/"><span class="lnr fi-list menu-item"></span>&nbsp; Resume</a>
+                </li>
+                <li>
+                    <a class="link-item-projects" href="#"><span class="lnr fi-star menu-item"></span>&nbsp; Projects</a>
+                </li>
+                <li>
+                    <a class="link-item-blog" href="#"><span class="lnr fi-results-demographics menu-item"></span>&nbsp; Blog</a>
+                </li>
             </ul>
             <ul class="right">
-                <li class="active"><a href="#">LinkedIn</a></li>
-                <li class="active"><a href="#">Github</a></li>
+                <li class="">
+                    <a class="link-item-linkedin" href="#"><span class="lnr fi-social-linkedin menu-item"></span>&nbsp; LinkedIn</a>
+                </li>
+                <li class="">
+                    <a class="link-item-github" href="#"><span class="lnr fi-social-github menu-item"></span>&nbsp; Github</a>
+                </li>
             </ul>
         </section>
     </nav>
     </div>
+    <h1>Welcome</h1>
 
     <footer>
         <script type="text/javascript">

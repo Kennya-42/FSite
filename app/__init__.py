@@ -13,8 +13,16 @@ def create_app():
 
     @app.route('/resume/')
     def resume():
-        return render_template('resume.html')
+        return render_template('viewer.html')
     
+    @app.route('/about/')
+    def about():
+        return render_template('about.html')
+
+    @app.route('/test/')
+    def test():
+        return render_template('resume.html')
+
     return app
 
 

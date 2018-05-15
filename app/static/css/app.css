@@ -1,5 +1,42 @@
-.style1 {
-    font-size: 30px;
+span.menu-item {
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+}
+
+a.link-item-home span.menu-item {
+    position: relative;
+    top: 0.32rem;
+    font-size: 2rem;
+    left: 0.1rem;
     color: #fefefe;
-    right: 0.2rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+a.link-item-resume span.menu-item {
+    position: relative;
+    top: 0.15rem;
+}
+
+a.link-item-projects span.menu-item {
+    position: relative;
+    top: 0.15rem;
+}
+
+a.link-item-blog span.menu-item {
+    position: relative;
+    top: 0.15rem;
+}
+
+a.link-item-linkedin span.menu-item {
+    position: relative;
+    top: 0.15rem;
+}
+
+a.link-item-about span.menu-item,
+a.link-item-github span.menu-item {
+    position: relative;
+    top: 0.15rem;
+    transition: background-color 0.5s ease;
 }

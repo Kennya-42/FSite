@@ -3,13 +3,8 @@
     color: #fefefe;
 }
 
-.foundation-5- .fi-home {
-    font-size: 5rem;
-    color: #fefefe;
-}
-
 .foundation-5-top-bar .menu {
-    background: #333;
+    background: transparent;
 }
 
 .foundation-5-top-bar .menu a {

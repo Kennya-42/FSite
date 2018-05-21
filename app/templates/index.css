@@ -1,14 +1,15 @@
 .foundation-5-top-bar {
-    background: #333;
-    color: #fefefe;
+    background: #000000;
+    color: #333;
 }
 
 .foundation-5-top-bar .menu {
     background: transparent;
+    color: #000000;
 }
 
 .foundation-5-top-bar .menu a {
-    color: #fefefe;
+    color: #000000;
 }
 
 .foundation-5-top-bar .is-dropdown-submenu {

@@ -28,6 +28,7 @@ a.link-item-projects span.menu-item {
 
 a.link-item-blog span.menu-item {
     position: relative;
+    display: hidden;
     top: 0.15rem;
 }
 
@@ -95,4 +96,13 @@ h1 {
 
 .link-item-name:hover {
     color: rgb(66, 66, 66);
+}
+
+.github-widget {
+    margin-left: 2.5rem;
+    margin-right: 3rem;
+}
+
+.gh-wiget-text-fl {
+    background-color: rgb(206, 206, 206);
 }

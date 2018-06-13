@@ -73,7 +73,7 @@ nav.top-bar {
     padding-top: 0.65rem;
 }
 
-@media screen and (min-width: 1150px) {
+@media screen and (min-width: 1050px) {
     .top-bar {
         margin-left: 40px;
         margin-left: 12rem;
@@ -81,8 +81,16 @@ nav.top-bar {
     }
 }
 
+@media screen and (min-width: 900px) and (max-width: 1049px) {
+    .top-bar {
+        margin-left: 40px;
+        margin-left: 6rem;
+        margin-right: 6rem;
+    }
+}
+
 h1 {
-    margin-left: 40px;
+    margin-left: 250px;
 }
 
 .top-bar-section li:not(.has-form) a:not(.button):hover {
@@ -99,10 +107,50 @@ h1 {
 }
 
 .github-widget {
-    margin-left: 2.5rem;
-    margin-right: 3rem;
+    margin-left: 5.5rem;
+    margin-right: 1.5rem;
+}
+
+@media screen and (min-width: 900px) and (max-width: 1049px) {
+    .github-widget {
+        margin-left: 0rem;
+        margin-right: 1rem;
+    }
+    h1 {
+        margin-left: 80px;
+    }
 }
 
 .gh-wiget-text-fl {
     background-color: rgb(206, 206, 206);
+}
+
+#cart2 {
+    max-height: 550px;
+    width: auto;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.about {
+    justify-content: left;
+    margin-left: 12rem;
+}
+
+p {
+    text-align: center;
+}
+
+#footer {
+    color: #000;
+}
+
+#ken {
+    max-height: 200px;
+    width: auto;
+    margin: 1rem;
 }

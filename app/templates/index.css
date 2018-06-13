@@ -31,3 +31,8 @@
 .foundation-5-top-bar .dropdown.menu.medium-horizontal>li.is-dropdown-submenu-parent>a::after {
     border-color: #fefefe transparent transparent;
 }
+
+cart1 {
+    width: auto;
+    transform: rotate(90deg);
+}
